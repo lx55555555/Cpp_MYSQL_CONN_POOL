@@ -1,0 +1,13 @@
+﻿  commonconnectionpool.cpp
+C:\Users\user\source\repos\commonconnectionpool\commonconnectionpool.cpp(22,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\user\source\repos\commonconnectionpool\commonconnectionpool.cpp(26,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\user\source\repos\commonconnectionpool\commonconnectionpool.cpp(13,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\commonconnectionpool\commonconnectionpool.cpp(94,86): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+  main.cpp
+C:\Users\user\source\repos\commonconnectionpool\main.cpp(46,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\commonconnectionpool\main.cpp(55,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\commonconnectionpool\main.cpp(64,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\source\repos\commonconnectionpool\main.cpp(73,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+commonconnectionpool.obj : error LNK2019: 无法解析的外部符号 "private: __cdecl connectionpool::~connectionpool(void)" (??1connectionpool@@AEAA@XZ)，函数 "void __cdecl `public: static class getconnectionpool * __cdecl connectionpool::getconnectionpool(void)'::`2'::`dynamic atexit destructor for 'pool''(void)" (??__Fpool@?1??getconnectionpool@connectionpool@@SAPEAV1@XZ@YAXXZ) 中引用了该符号
+C:\Users\user\source\repos\commonconnectionpool\x64\Debug\commonconnectionpool.exe : fatal error LNK1120: 1 个无法解析的外部命令
